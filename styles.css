@@ -17,9 +17,19 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: var(--background-color);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+    
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 
@@ -27,7 +37,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 /**** Card Start ****/
@@ -83,11 +94,13 @@ p {
 
 /**** Card End ****/
 
+
 /***** Media Queries *****/
 @media screen and (min-width: 630px) {
     .section {
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 100px;
     }
     
 }
