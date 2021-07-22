@@ -78,7 +78,9 @@ p {
     border-radius: 30px;
     border-color: var(--background-color);
     color: var(--background-color);
+    cursor: pointer;
 }
+
 
 .sedan {
     background: var(--primary-color);
